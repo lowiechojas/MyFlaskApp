@@ -8,18 +8,15 @@ body{
 
 .content{
     display: block;
-    align-items: center;
-    align-content: cener;
-    text-align: center;
-    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-}
-
-td,tr{
-    border: 1px solid black;
     align-items: center;
     align-content: center;
     text-align: center;
+    justify-items: center;
+}
+
+tr,td{
     justify-content: space-around;
+    border: 1px solid black;
 }
