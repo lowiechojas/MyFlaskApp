@@ -18,5 +18,47 @@ body{
 
 tr,td{
     justify-content: space-around;
-    border: 1px solid black;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-list{
+    display: flex;
+    gap: 24px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    align-content: center;
+    justify-content: center;
+}
+
+
+.mylogo{
+    height: 85px;
+    width: 85px;
+    object-fit: scale-down;
+}
+
+.logo{
+    display: flex;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    text-decoration:  none;
 }
