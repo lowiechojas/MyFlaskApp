@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #070e25e5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
@@ -48,17 +48,63 @@ tr,td{
     height: 85px;
     width: 85px;
     object-fit: scale-down;
+    border: 1px solid #65d10d;
 }
 
 .logo{
     display: flex;
+    color: white;
 }
 
 li{
     text-align: center;
     list-style: none;
+    
 }
 
 a{
     text-decoration:  none;
+    color: #3f3d3d;
+    padding: 5px;
+}
+
+a:hover{
+    color: white;
+}
+
+.hireme:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.hireme{
+    background-color: #65d10d;
+    border-radius: 5%;
+}
+
+.main-landing{
+    display: flex;
+    height: calc(100vh*.8);
+    width: 100%;
+    align-items: center;
+}
+
+.motto{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    font-size: calc(100vh*.10);
+    padding-left: calc(100vw*.15);
+}
+
+.it{
+    color: greenyellow;
+}
+
+.reality{
+    font-style: italic;
+}
+
+.binto{
+    color: #65d10d;
 }
