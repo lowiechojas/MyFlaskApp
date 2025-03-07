@@ -103,7 +103,17 @@ a:hover{
 
 .reality{
     font-style: italic;
+    color: white;
 }
+
+.reality2{
+    color: white;
+}
+
+.reality2:hover{
+    color: red;
+}
+
 
 .binto{
     color: #65d10d;
