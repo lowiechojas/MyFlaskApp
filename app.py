@@ -52,6 +52,11 @@ def index():
 def landing_page():
     
     return render_template('/landing-page.html')
+
+@app.route('/hireme')
+def hireme():
+    
+    return render_template('hireme.html')
     
 
 @app.route('/delete/<int:id>')
