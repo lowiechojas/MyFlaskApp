@@ -134,15 +134,25 @@ a:hover{
 .skills-menu{
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: center;
     height: calc(100vh*.5);
     width: 100%;
     font-size: 30px;
-    background-color: white;
-    opacity: 0.2;
+    background-color: whitesmoke;
 }
 
 .skills-menu, div{
-    column-gap: 12px;
+    column-gap: 50px;
 }
 
+
+.logo-icon{
+    height: calc(100vh*.30);
+    width: auto;
+}
+
+.tech-stack{
+    border-right: 3px solid white;
+    padding: 20px;
+}
