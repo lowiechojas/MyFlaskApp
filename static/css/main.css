@@ -133,10 +133,11 @@ a:hover{
 
 .skills-menu{
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: center;
-    height: calc(100vh*.5);
+    height: max-content;
     width: 100%;
     font-size: 30px;
     background-color: whitesmoke;
@@ -148,7 +149,7 @@ a:hover{
 
 
 .logo-icon{
-    height: calc(100vh*.30);
+    height: calc(100vh*.20);
     width: auto;
 }
 
