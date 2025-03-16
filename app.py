@@ -56,7 +56,7 @@ def landing_page():
 @app.route('/hireme')
 def hireme():
     
-    return render_template('hireme.html')
+    return render_template('/hireme.html')
     
 
 @app.route('/delete/<int:id>')

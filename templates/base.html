@@ -8,6 +8,22 @@
     {%block head%}{%endblock %}
 </head>
 <body>
+
+    <div class="flex nav-bar">
+        <div class="logo">
+            <a href="{{url_for('landing_page')}}" target="_parent"><img class="mylogo" src="\static\css\web_logo_LH.png" alt="myLogo" href="#"></a>
+            <p class="logo2">Lowie Hojas<br>
+                <span class="webdev">Web Developer</span></p>
+        </div>
+        <div class="menu">
+            <ul class="menu-list">
+                <li><a href="#" target="_blank">Projects</a></li>
+                <li><a href="#" target="_blank">About</a></li>
+                <li><a href="{{url_for('hireme')}}" target="_parent" class="hireme">HireMe</a></li>
+            </ul>
+        </div>
+    </div>
+
     {%block body %} {%endblock %}
 </body>
 </html>
